@@ -1,0 +1,24 @@
+edge-1:
+  level1_tags: [encyclopedic]
+  level2_tags: [person, organization, event]
+edge-2:
+  level1_tags: [encyclopedic]
+  level2_tags: [history, science, culture]
+edge-3:
+  level1_tags: [medical]
+  level2_tags: [diagnosis, test, disease]
+edge-4:
+  level1_tags: [medical]
+  level2_tags: [risk, treatment, drug, prognosis]
+edge-5:
+  level1_tags: [legal]
+  level2_tags: [statute, case, right, obligation]
+edge-6:
+  level1_tags: [legal]
+  level2_tags: [liability, procedure, penalty, remedy]
+edge-7:
+  level1_tags: [literature]
+  level2_tags: [character, relationship, motivation, plot]
+edge-8:
+  level1_tags: [literature]
+  level2_tags: [theme, setting, summary]

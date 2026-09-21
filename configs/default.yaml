@@ -1,0 +1,4 @@
+max_servers: 4
+selection_mode: joint
+allow_timeout_probability: 0.2
+default_deadline_ms: 500

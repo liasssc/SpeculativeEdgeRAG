@@ -1,0 +1,38 @@
+encyclopedic:
+  - person
+  - organization
+  - location
+  - event
+  - history
+  - science
+  - culture
+  - summary
+literature:
+  - character
+  - event
+  - relationship
+  - motivation
+  - theme
+  - setting
+  - plot
+  - summary
+legal:
+  - statute
+  - case
+  - right
+  - obligation
+  - liability
+  - procedure
+  - penalty
+  - remedy
+  - summary
+medical:
+  - disease
+  - symptom
+  - risk
+  - diagnosis
+  - test
+  - treatment
+  - drug
+  - prognosis
+  - summary
