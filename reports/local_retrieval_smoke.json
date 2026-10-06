@@ -1,0 +1,977 @@
+{
+  "queries": [
+    {
+      "query_id": "graphragBench_medical_0000",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "disease"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-0904b85e20b37e6adc2cea3c",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-23c3fc870c717b0a8d80c9af",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-01d6b449419fb4c6d3362a35",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 38.997,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0001",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-03767398ee0309d1307e4bb9",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-0904b85e20b37e6adc2cea3c",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-1f505b116055c16b7654df19",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 49.854,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0002",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-0904b85e20b37e6adc2cea3c",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-1ed2d7b2dca051357aeab6b1",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-59d57f80a70f18dd6833b01f",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 102.409,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0003",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "risk"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-07af52f27d65f3722388234a",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-652503d0c46f9716bd9824ac",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-966b1eff2aacc0ee731516d8",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 43.43,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0004",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "risk"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-ab5e08ecad67d1542ca1bb59",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-104dcaf3914a067cc99d1ddb",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-122eb066372e8fb9006e0625",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 42.944,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0005",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "risk"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-8f101b3b724199a542bf7fdd",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-07af52f27d65f3722388234a",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-62d6c1a1e9ccf0375cdf8b1b",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 38.849,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0006",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "risk"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-8f101b3b724199a542bf7fdd",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-122eb066372e8fb9006e0625",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-8221103608d837048123b0c4",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 41.308,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0007",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "risk"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-4f6455694a5ab8ad829dfb65",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-8f101b3b724199a542bf7fdd",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-966b1eff2aacc0ee731516d8",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 41.416,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0008",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-0904b85e20b37e6adc2cea3c",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-926f91b9ec981fa505200cf7",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-b90697fc9fe50af9093168bb",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 38.299,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0009",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-0c6022b16fb42b9531f14528",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-0cda21cf7ff0b44640798636",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-19fcfc830c8285c7c2421b5c",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 37.67,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0010",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "treatment"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-07b2547ff57773fb0e486a4f",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-0904b85e20b37e6adc2cea3c",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-8f101b3b724199a542bf7fdd",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 36.796,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0011",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "treatment"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-397ebeaef17e130a8ed15b24",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-652503d0c46f9716bd9824ac",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-7c344222f659f91c7d9ba20d",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis",
+            "test",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "drug",
+        "prognosis",
+        "risk",
+        "symptom",
+        "test",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 37.914,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    }
+  ],
+  "summary": {
+    "query_count": 12,
+    "empty_retrieval_count": 0,
+    "elapsed_ms": 551.781
+  }
+}

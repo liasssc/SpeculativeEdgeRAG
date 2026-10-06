@@ -58,3 +58,29 @@ class RequestState:
     selection_mode: str = "joint"
     gamma: int = 4
 
+@dataclass(frozen=True)
+class ProbeResult:
+    """Privacy-safe summary returned by an edge-local relevance probe."""
+    server_id: str
+    matched_tag_pairs: tuple[tuple[str, str], ...] = ()
+    top_relevance_score: float = 0.0
+    mean_top_k_score: float = 0.0
+    relevant_chunk_count: int = 0
+    query_term_coverage: tuple[int, ...] = ()
+    top_chunk_ids: tuple[str, ...] = ()
+    estimated_probe_ms: float = 0.0
+    uncertainty: float = 1.0
+
+@dataclass
+class EdgeBranchResult:
+    """Future edge response: evidence and a draft branch travel together.
+
+    This is an interface-only schema.  It deliberately contains no model or
+    decoding behavior so offline data preparation remains model free.
+    """
+    server_id: str
+    evidence_capsule: Any = None
+    draft_branch: Any = None
+    retrieval_score: float = 0.0
+    covered_tags: list[str] = field(default_factory=list)
+    latency_statistics: Mapping[str, float] = field(default_factory=dict)

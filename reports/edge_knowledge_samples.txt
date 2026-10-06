@@ -1,0 +1,104 @@
+================================================================================
+SERVER: edge-1
+METADATA: {"server_id": "edge-1", "partition_kind": "experimental_offline_partition", "online_routing_operation": false, "seed": 20260921, "replicate_chunks": false, "document_reference_count": 10551, "document_count": 10551, "chunk_count": 12983}
+SAMPLE 1:
+  chunk_id: chunk-3f11ae8701efb93ff5b7afbf
+  doc_id: musique:0
+  tags: ['summary']
+  text: Grant's First Stand is the debut album by American jazz guitarist Grant Green featuring performances by Green recorded and released on the Blue Note label in 1961. Earlier recordings made by Green for Blue Note were released as "First Session" in 2001.
+SAMPLE 2:
+  chunk_id: chunk-70ff5f125a1c2152db8048e2
+  doc_id: musique:1
+  tags: ['person']
+  text: Actress / director / singer Phylicia Rashād is the older sister of performer Debbie Allen, who is married to former NBA basketball player, Norm Nixon. Phylicia Rashād is the former spouse of both Victor Willis, former lead singer of the group Village People, and former NFL football player turned sportscaster, Ahmad Rashād. Phylicia and Ahmad Rashād are the parents of actress Condola Rashād.
+================================================================================
+SERVER: edge-2
+METADATA: {"server_id": "edge-2", "partition_kind": "experimental_offline_partition", "online_routing_operation": false, "seed": 20260921, "replicate_chunks": false, "document_reference_count": 10549, "document_count": 10549, "chunk_count": 12464}
+SAMPLE 1:
+  chunk_id: chunk-715e4287c9cda774baf2edcc
+  doc_id: musique:10
+  tags: ['summary']
+  text: Green is the fourth studio album by British progressive rock musician Steve Hillage. Written in spring 1977 at the same time as his previous album, the funk-inflected "Motivation Radio" (1977), "Green" was originally going to be released as "The Green Album" as a companion to "The Red Album" (the originally intended name for "Motivation Radio"). However, this plan was dropped and after a US tour in late 1977, "Green" was recorded alone, primarily in Dorking, Surrey, and in London.
+SAMPLE 2:
+  chunk_id: chunk-9b9ac812ff6c8ad76e32c842
+  doc_id: musique:10001
+  tags: ['location', 'history']
+  text: The 2017 NFL season is the 98th and current season in the history of the National Football League (NFL). The season began on September 7, 2017, with the Kansas City Chiefs defeating the defending Super Bowl LI champion New England Patriots 42 -- 27 in the NFL Kickoff Game. The season will conclude with Super Bowl LII, the league's championship game, on February 4, 2018, at U.S. Bank Stadium in Minneapolis, Minnesota.
+================================================================================
+SERVER: edge-3
+METADATA: {"server_id": "edge-3", "partition_kind": "experimental_offline_partition", "online_routing_operation": false, "seed": 20260921, "replicate_chunks": false, "document_reference_count": 1, "document_count": 1, "chunk_count": 643}
+SAMPLE 1:
+  chunk_id: chunk-3dc2682de3aa526f7d002fea
+  doc_id: graphragBench_medical:0
+  tags: ['disease', 'treatment']
+  text: About basal cell skin cancer What is basal cell skin cancer? How is basal cell skin cancer treated? What can you do to get the best care? Basal cell skin cancer, also known as basal cell carcinoma (BCC), is the most common type of skin cancer. About 3 million cases of basal cell skin cancer are diagnosed every year in the United States. The good news is it can be cured in most cases. Treatment usually involves surgery to remove the cancer. Keep reading to find out more. What is basal cell skin c
+SAMPLE 2:
+  chunk_id: chunk-973fdd8c7ee99ab28e0bd9aa
+  doc_id: graphragBench_medical:0
+  tags: ['disease']
+  text: sal cells and other cells. Basal cell skin cancer occurs when some basal cells become abnormal and grow out of control. This cancer usually develops in areas exposed to the sun, including the face, head, neck, arms, legs, and trunk. But it can occur anywhere on the body. Skin lesions Basal cell skin cancer is often found on the face, head, and neck. Here is a basal cell lesion pictured on a person's cheek. Skin basics Did you know that your skin is your body’s largest organ and if you measured i
+================================================================================
+SERVER: edge-4
+METADATA: {"server_id": "edge-4", "partition_kind": "experimental_offline_partition", "online_routing_operation": false, "seed": 20260921, "replicate_chunks": false, "document_reference_count": 1, "document_count": 1, "chunk_count": 642}
+SAMPLE 1:
+  chunk_id: chunk-aad03ed34faf6398c09d05ca
+  doc_id: graphragBench_medical:0
+  tags: ['disease', 'risk']
+  text: caught early. To find out how basal cell skin cancer is diagnosed, read Chapter 2: Testing for basal cell skin cancer. Causes and risk factors Basal cell skin cancer is caused by exposure to UV radiation from the sun or other sources like tanning beds. UV radiation can harm the DNA inside basal skin cells. DNA controls how cells grow and function. If the DNA inside cells becomes damaged, the cells can become abnormal and grow out of control. You’re more likely to have basal cell skin cancer if y
+SAMPLE 2:
+  chunk_id: chunk-e403d3aa8f170865d63a7524
+  doc_id: graphragBench_medical:0
+  tags: ['disease', 'risk', 'treatment']
+  text: in are at a higher risk of developing skin cancer because melanin (skin pigment) filters out the sun's harmful UV rays. Age – Risk increases with age because sun exposure builds up over time. But skin cancer is becoming more common in younger people. History of skin cancer – If you or someone in your family has had skin cancer, you’re more likely to develop any type of skin cancer. Radiation therapy – Radiation treatment for other conditions, especially at a young age, can cause skin cancer. Imm
+================================================================================
+SERVER: edge-5
+METADATA: {"server_id": "edge-5", "partition_kind": "experimental_offline_partition", "online_routing_operation": false, "seed": 20260921, "replicate_chunks": false, "document_reference_count": 48, "document_count": 48, "chunk_count": 8966}
+SAMPLE 1:
+  chunk_id: chunk-8c8aa65f6eaaf1673def8cef
+  doc_id: ultraDomain_legal:10
+  tags: ['summary']
+  text: Exhibit 10.2  EXECUTION COPY        TERM LOAN AGREEMENT  AMONG  AMERICAN TOWER CORPORATION,  AS BORROWER;  TORONTO DOMINION (TEXAS) LLC  AS ADMINISTRATIVE AGENT FOR THE LENDERS;  AND  THE FINANCIAL INSTITUTIONS WHOSE NAMES APPEAR  AS LENDERS ON THE SIGNATURE PAGES HEREOF;  AND WITH  MORGAN STANLEY MUFG LOAN PARTNERS, LLC  AND  THE BANK OF NOVA SCOTIA  AS CO-SYNDICATION AGENTS;  AND  TD SECURITIES (USA) LLC  COBANK, ACB  and  SANTANDER BANK, N.A.  AS JOINT LEAD ARRANGERS AND JOINT BOOKRUNNERS  DA
+SAMPLE 2:
+  chunk_id: chunk-3f0ccaa4974b8b9d7bccb77d
+  doc_id: ultraDomain_legal:10
+  tags: ['statute']
+  text: 24    Section 2.11     Capital Adequacy       25    Section 2.12     Lender Tax Forms       26    Section 2.13     Incremental Term Loans       27    Section 2.14     Defaulting Lender       28    ARTICLE 3 - CONDITIONS PRECEDENT       28    Section 3.1     Conditions Precedent to Effectiveness of this Agreement       28    ARTICLE 4 - REPRESENTATIONS AND WARRANTIES       29    Section 4.1     Representations and Warranties       30    Section 4.2     Survival of Representations and Warranties, 
+================================================================================
+SERVER: edge-6
+METADATA: {"server_id": "edge-6", "partition_kind": "experimental_offline_partition", "online_routing_operation": false, "seed": 20260921, "replicate_chunks": false, "document_reference_count": 46, "document_count": 46, "chunk_count": 8802}
+SAMPLE 1:
+  chunk_id: chunk-e69cdf0745a9ad66a468d074
+  doc_id: ultraDomain_legal:0
+  tags: ['summary']
+  text: Exhibit 10.1  EXECUTION VERSION  CONFIDENTIAL – Subject to FRE 408  THIS RESTRUCTURING SUPPORT AGREEMENT DOES NOT CONSTITUTE (NOR SHALL IT BE CONSTRUED AS) AN OFFER WITH RESPECT TO ANY SECURITIES OR A SOLICITATION OF ACCEPTANCES OR REJECTIONS AS TO ANY PLAN OF REORGANIZATION. ANY SUCH OFFER OR SOLICITATION WILL COMPLY WITH ALL APPLICABLE PROVISIONS OF SECURITIES, BANKRUPTCY, AND/OR OTHER APPLICABLE LAWS.           RESTRUCTURING SUPPORT AGREEMENT  AMONG  ENDOLOGIX, INC.  AND  THE SUPPORTING LENDE
+SAMPLE 2:
+  chunk_id: chunk-d9288bdb4e4ede4e3c53457d
+  doc_id: ultraDomain_legal:0
+  tags: ['summary']
+  text: E V        REPRESENTATIONS AND WARRANTIES OF THE COMPANY         Section 5.1     Qualification, Organization, Subsidiaries, etc.       24    Section 5.2     Capitalization       24    Section 5.3     Corporate Authority       25    Section 5.4     Consents and Approvals       26    Section 5.5     No Violations       26    Section 5.6     SEC Filings; Financial Statements       27    Section 5.7     No Undisclosed Liabilities       28    Section 5.8     Absence of Certain Changes       28    Sec
+================================================================================
+SERVER: edge-7
+METADATA: {"server_id": "edge-7", "partition_kind": "experimental_offline_partition", "online_routing_operation": false, "seed": 20260921, "replicate_chunks": false, "document_reference_count": 194, "document_count": 194, "chunk_count": 4015}
+SAMPLE 1:
+  chunk_id: chunk-1d4398eb82416d15735414ef
+  doc_id: quality:0
+  tags: ['character', 'event']
+  text: THE GIRL IN HIS MIND By ROBERT F. YOUNG    [Transcriber's Note: This etext was produced from   Worlds of Tomorrow April 1963   Extensive research did not uncover any evidence that   the U.S. copyright on this publication was renewed.] Every man's mind is a universe with countless   places in which he can hide—even from himself! The dance that the chocoletto girl was performing was an expurgated  version of the kylee sex ritual which the Louave maidens of Dubhe 7  practiced on the eve of their be
+SAMPLE 2:
+  chunk_id: chunk-eafbf873ff85f26c20e5a9a0
+  doc_id: quality:0
+  tags: ['character', 'event']
+  text: the languid motion of her limbs, wide and feral the  next to match the furious bump and grind of her hips. For a chocoletto  she was light-skinned—more bronze, really, than brown. But then,  the word "chocoletto", coined by the early beche-la-mer traders, was  misleading, and few of the natives of Dubhe 4's southern-most continent  lived up to it completely.    She was beautiful too. Her high-cheekboned face was striking—the eyes  dark-brown and wide-apart, the mouth sensuous, the teeth showing 
+================================================================================
+SERVER: edge-8
+METADATA: {"server_id": "edge-8", "partition_kind": "experimental_offline_partition", "online_routing_operation": false, "seed": 20260921, "replicate_chunks": false, "document_reference_count": 71, "document_count": 71, "chunk_count": 1586}
+SAMPLE 1:
+  chunk_id: chunk-bdab973bdda424e38a99e283
+  doc_id: quality:1
+  tags: ['character', 'theme']
+  text: LOST   IN   TRANSLATION By LARRY M.   HARRIS In language translation, you may get a literally accurate  word-for-word translation ... but miss the meaning entirely. And in  space-type translation ... the effect may be the same! Illustrated by Schoenherr The cell had been put together more efficiently than any Korvin had  ever been in. But that was only natural, he told himself sadly; the  Tr'en were an efficient people. All the preliminary reports had agreed  on that; their efficiency, as a matt
+SAMPLE 2:
+  chunk_id: chunk-8fbdd7a210f5d21ba9e9231c
+  doc_id: quality:1
+  tags: ['character']
+  text: nothing to do but explore the resources of his own  mind. He'd tried some of the ancient Rhine experiments, but that was  no good; he still didn't show any particular psi talents. He couldn't  unlock the cell door with his unaided mind; he couldn't even alter the  probability of a single dust-mote's Brownian path through the somewhat  smelly air. Nor could he disappear from his cell and appear, as if by  magic, several miles away near the slightly-damaged hulk of his ship,  to the wonder and ama

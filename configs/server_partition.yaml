@@ -1,3 +1,8 @@
+experimental_partition:
+  seed: 20260921
+  replicate_chunks: false
+  chunk_level_domains: [medical]
+
 edge-1:
   level1_tags: [encyclopedic]
   level2_tags: [person, organization, event]

@@ -1,0 +1,1462 @@
+{
+  "queries": [
+    {
+      "query_id": "musique_0000",
+      "query_tags": [
+        {
+          "level1": "encyclopedic",
+          "level2": "person"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-00a8137f2b36123bffbf5349",
+          "score": 1.0,
+          "tags": [
+            "person"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-0e62197678e53e5b1ec53a25",
+          "score": 1.0,
+          "tags": [
+            "person"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-1366b54316b5ccfddfdc4451",
+          "score": 1.0,
+          "tags": [
+            "event"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "event",
+        "person"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 369.59,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "ultraDomain_legal_0000",
+      "query_tags": [
+        {
+          "level1": "legal",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-6b7c9ad87cc69101dbc78cfb",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "case",
+            "obligation"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-b0b96be88834970f86dbafce",
+          "score": 1.0,
+          "tags": [
+            "obligation"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-c3a2b4b2663fdb0f18568996",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "obligation",
+            "remedy"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "case",
+        "obligation",
+        "remedy",
+        "statute"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 525.43,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "quality_0000",
+      "query_tags": [
+        {
+          "level1": "literature",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-0026503e8f5c8ee003116a0c",
+          "score": 1.0,
+          "tags": [
+            "setting"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-06654515b886e62f05167006",
+          "score": 1.0,
+          "tags": [
+            "person",
+            "event"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-25428bcc16410284828edbde",
+          "score": 1.0,
+          "tags": [
+            "character",
+            "event"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "character",
+        "event",
+        "person",
+        "setting"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 461.248,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0000",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "disease"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-0904b85e20b37e6adc2cea3c",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-23c3fc870c717b0a8d80c9af",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "symptom",
+            "risk",
+            "diagnosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-01d6b449419fb4c6d3362a35",
+          "score": 1.0,
+          "tags": [
+            "disease"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "risk",
+        "symptom",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 40.142,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "musique_0001",
+      "query_tags": [
+        {
+          "level1": "encyclopedic",
+          "level2": "person"
+        },
+        {
+          "level1": "encyclopedic",
+          "level2": "organization"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-31d16433c88ecd11bc436180",
+          "score": 1.0,
+          "tags": [
+            "person",
+            "organization"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-9b3e933d0e3e6c6b1b6129da",
+          "score": 1.0,
+          "tags": [
+            "statute"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-d9a2f5225d648ab2744f4b50",
+          "score": 1.0,
+          "tags": [
+            "organization"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "organization",
+        "person",
+        "statute"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 364.311,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "ultraDomain_legal_0001",
+      "query_tags": [
+        {
+          "level1": "legal",
+          "level2": "right"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-ef889e971b0ebbdb9f141751",
+          "score": 1.0,
+          "tags": [
+            "right"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-899396ee08b93dd55b3b941c",
+          "score": 1.0,
+          "tags": [
+            "right",
+            "remedy"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-a622b365a56fa068f0a578c9",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "case",
+            "right",
+            "procedure",
+            "remedy"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "case",
+        "procedure",
+        "remedy",
+        "right",
+        "statute"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 378.066,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "quality_0001",
+      "query_tags": [
+        {
+          "level1": "literature",
+          "level2": "plot"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-92fdb24577a042abda23270b",
+          "score": 1.0,
+          "tags": [
+            "character",
+            "event"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-f90e42ea57278157d775857e",
+          "score": 1.0,
+          "tags": [
+            "character",
+            "plot"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-0426352a5639f0b65f8db970",
+          "score": 1.0,
+          "tags": [
+            "character",
+            "event",
+            "motivation"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "character",
+        "event",
+        "motivation",
+        "plot"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 389.482,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0001",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-03767398ee0309d1307e4bb9",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-0904b85e20b37e6adc2cea3c",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-1f505b116055c16b7654df19",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "disease",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 40.982,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "musique_0002",
+      "query_tags": [
+        {
+          "level1": "encyclopedic",
+          "level2": "location"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-071157b5d48dbee654870b95",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "case",
+            "procedure"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-0d070037f6e125de6698c9fb",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "remedy"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-115925240b39bccc3c8b35a7",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "liability"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "case",
+        "liability",
+        "procedure",
+        "remedy",
+        "statute"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 365.331,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "ultraDomain_legal_0002",
+      "query_tags": [
+        {
+          "level1": "legal",
+          "level2": "statute"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-4325212f4ec1fa1ccce7c652",
+          "score": 1.0,
+          "tags": [
+            "right"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-45ca53cfda4888271f1500dd",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "procedure"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-ab16e5fa296585436f8c5534",
+          "score": 1.0,
+          "tags": [
+            "case",
+            "liability"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "case",
+        "liability",
+        "procedure",
+        "right",
+        "statute"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 382.913,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "quality_0002",
+      "query_tags": [
+        {
+          "level1": "literature",
+          "level2": "character"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-9b7891be16a33b7310b35d66",
+          "score": 1.0,
+          "tags": [
+            "character"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-5a689afdabde0a0b77824b65",
+          "score": 1.0,
+          "tags": [
+            "character"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-b8cdc81028fc061f699bc6f6",
+          "score": 1.0,
+          "tags": [
+            "character"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "character"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 385.674,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0002",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-0904b85e20b37e6adc2cea3c",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-1ed2d7b2dca051357aeab6b1",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "treatment",
+            "drug",
+            "prognosis"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-59d57f80a70f18dd6833b01f",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "disease",
+        "drug",
+        "prognosis",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 40.849,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "musique_0003",
+      "query_tags": [
+        {
+          "level1": "encyclopedic",
+          "level2": "location"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-010226deffdfb11e02f32ec5",
+          "score": 1.0,
+          "tags": [
+            "person",
+            "location",
+            "history"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-0177095ec8c951aaa57c49a1",
+          "score": 1.0,
+          "tags": [
+            "character"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-018e77d00717f9599c09bdbc",
+          "score": 1.0,
+          "tags": [
+            "person",
+            "location"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "character",
+        "history",
+        "location",
+        "person"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 362.81,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "ultraDomain_legal_0003",
+      "query_tags": [
+        {
+          "level1": "legal",
+          "level2": "case"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-a0ca0a1e26b5af2dc5ef057e",
+          "score": 1.0,
+          "tags": [
+            "summary"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-24ac184f68476ad8d0132e7d",
+          "score": 1.0,
+          "tags": [
+            "summary"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-802f94812ed538cff43ffc5d",
+          "score": 1.0,
+          "tags": [
+            "summary"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "summary"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 383.255,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "quality_0003",
+      "query_tags": [
+        {
+          "level1": "literature",
+          "level2": "character"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-4a8c6503d0e9fbd44dafe40f",
+          "score": 1.0,
+          "tags": [
+            "character"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-79e4ae1137fb856cc79de0a2",
+          "score": 1.0,
+          "tags": [
+            "character",
+            "event"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-8ce29411ef0a8c286d1db6d1",
+          "score": 1.0,
+          "tags": [
+            "character"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "character",
+        "event"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 378.366,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0003",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "risk"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-07af52f27d65f3722388234a",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "risk",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-652503d0c46f9716bd9824ac",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "risk",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-966b1eff2aacc0ee731516d8",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "risk",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "disease",
+        "risk",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 40.95,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "musique_0004",
+      "query_tags": [
+        {
+          "level1": "encyclopedic",
+          "level2": "organization"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-066952ef7bf1914c2e6cf963",
+          "score": 1.0,
+          "tags": [
+            "organization"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-0aec67d87282501848b396b2",
+          "score": 1.0,
+          "tags": [
+            "liability"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-0c0e07cad01193360b3516af",
+          "score": 1.0,
+          "tags": [
+            "right"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "liability",
+        "organization",
+        "right"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 371.591,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "ultraDomain_legal_0004",
+      "query_tags": [
+        {
+          "level1": "legal",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-21d7f30de73a0fb53f633b47",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "right"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-1316b5f1077b02179cdeb3b4",
+          "score": 1.0,
+          "tags": [
+            "case"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-26bf7c9ed9c654dcabfc43a7",
+          "score": 1.0,
+          "tags": [
+            "obligation",
+            "procedure"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "case",
+        "obligation",
+        "procedure",
+        "right",
+        "statute"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 379.321,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "quality_0004",
+      "query_tags": [
+        {
+          "level1": "literature",
+          "level2": "plot"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-0fb48cd4558f80364ebc060c",
+          "score": 1.0,
+          "tags": [
+            "character",
+            "event",
+            "motivation"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-01d488d6d33ce2b525bdfb75",
+          "score": 1.0,
+          "tags": [
+            "character",
+            "event"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-4281ad74a323fade4db412eb",
+          "score": 1.0,
+          "tags": [
+            "character"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "character",
+        "event",
+        "motivation"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 376.478,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0004",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "risk"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-ab5e08ecad67d1542ca1bb59",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "risk"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-104dcaf3914a067cc99d1ddb",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "risk",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-122eb066372e8fb9006e0625",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "risk",
+            "diagnosis",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "diagnosis",
+        "disease",
+        "risk",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 40.989,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "musique_0005",
+      "query_tags": [
+        {
+          "level1": "encyclopedic",
+          "level2": "person"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-056f5529e7a8cbf555234a51",
+          "score": 1.0,
+          "tags": [
+            "person"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-05c03c8894f5b7fac93bbc3c",
+          "score": 1.0,
+          "tags": [
+            "person"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-05f744445311f5d9e5b9c4b7",
+          "score": 1.0,
+          "tags": [
+            "person"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "person"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 373.615,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "ultraDomain_legal_0005",
+      "query_tags": [
+        {
+          "level1": "legal",
+          "level2": "obligation"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-f389c82591a510c5577d9ff6",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "case"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-269852ab6497d9f11ae0e469",
+          "score": 1.0,
+          "tags": [
+            "statute",
+            "obligation"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-abd5403ba7474957d49b4b7c",
+          "score": 1.0,
+          "tags": [
+            "case"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "case",
+        "obligation",
+        "statute"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 381.815,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "quality_0005",
+      "query_tags": [
+        {
+          "level1": "literature",
+          "level2": "summary"
+        }
+      ],
+      "candidate_servers": [
+        "edge-1",
+        "edge-2",
+        "edge-3",
+        "edge-5",
+        "edge-6",
+        "edge-7",
+        "edge-8"
+      ],
+      "selected_servers": [
+        "edge-1"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-024e6ced0e16e858965d9c83",
+          "score": 1.0,
+          "tags": [
+            "location",
+            "culture"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-952dcf98bbafca5c4e0614a4",
+          "score": 1.0,
+          "tags": [
+            "summary"
+          ],
+          "server_id": "edge-1"
+        },
+        {
+          "chunk_id": "chunk-01d488d6d33ce2b525bdfb75",
+          "score": 1.0,
+          "tags": [
+            "character",
+            "event"
+          ],
+          "server_id": "edge-1"
+        }
+      ],
+      "tags": [
+        "character",
+        "culture",
+        "event",
+        "location",
+        "summary"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 375.653,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    },
+    {
+      "query_id": "graphragBench_medical_0005",
+      "query_tags": [
+        {
+          "level1": "medical",
+          "level2": "risk"
+        }
+      ],
+      "candidate_servers": [
+        "edge-3",
+        "edge-5",
+        "edge-7"
+      ],
+      "selected_servers": [
+        "edge-3"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk-8f101b3b724199a542bf7fdd",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "risk",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-07af52f27d65f3722388234a",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "risk",
+            "treatment"
+          ],
+          "server_id": "edge-3"
+        },
+        {
+          "chunk_id": "chunk-62d6c1a1e9ccf0375cdf8b1b",
+          "score": 1.0,
+          "tags": [
+            "disease",
+            "risk"
+          ],
+          "server_id": "edge-3"
+        }
+      ],
+      "tags": [
+        "disease",
+        "risk",
+        "treatment"
+      ],
+      "evidence_count": 3,
+      "latency_statistics": {
+        "retrieval_ms": 39.982,
+        "selection_estimated_ms": 120.0
+      },
+      "empty_retrieval": false
+    }
+  ],
+  "summary": {
+    "query_count": 24,
+    "empty_retrieval_count": 0,
+    "elapsed_ms": 7257.881
+  }
+}

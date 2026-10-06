@@ -1,0 +1,19 @@
+tag_pair_weight: 1.0
+term_coverage_weight: 2.0
+top_relevance_weight: 0.6
+mean_relevance_weight: 0.4
+evidence_mass_weight: 0.2
+registry_coverage_weight: 0.5
+overlap_penalty: 0.8
+server_count_penalty: 0.35
+marginal_gain_threshold: 0.05
+evidence_mass_scale: 20.0
+top_k: 5
+calibration:
+  marginal_gain_thresholds: [0.0, 0.05, 0.1]
+  server_count_penalties: [0.2, 0.35, 0.5]
+  overlap_penalties: [0.4, 0.8, 1.2]
+  objective:
+    recall_weight: 1.0
+    unnecessary_weight: 0.5
+    server_count_weight: 0.05
